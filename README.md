@@ -24,6 +24,7 @@ Users should be able to:
 
 
 ### Screenshot
+<img width="1259" alt="Captura de Pantalla 2022-10-18 a la(s) 13 47 24" src="https://user-images.githubusercontent.com/99434648/196494573-e7d39a50-dc18-4042-a578-c18e1753a60a.png">
 
 ![](./screenshot.jpg)
 
