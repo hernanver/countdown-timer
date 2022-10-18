@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Countdown timer](https://your-live-site-url.com)
+- Live Site URL: [Countdown timer](https://hv-countdown-timer.netlify.app)
 
 ## My process
 
