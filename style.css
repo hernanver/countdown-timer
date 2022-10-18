@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --grayish-blue:hsl(237, 18%, 59%);
+    --soft-red:hsl(345, 95%, 68%);
+    --dark-blue:hsl(236, 21%, 26%);
+    --very-dark-blue:hsl(235, 16%, 14%);
+    --black:hsl(234, 17%, 12%);
+}
+
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    background-color:var(--very-dark-blue) ;
+
+}
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.social{
+    position:absolute;
+    bottom:30px;
+   left:50%;
+   transform: translateX(-50%);
+    z-index: 999;
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.counter{
+
+text-align: center;
+}
+.counter h1{
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 0.4rem;
+    padding-bottom: 3rem;
+    font-size: 14px;
+}
+.counter h5{
+    text-transform: uppercase;
+    color:var(--grayish-blue);
+    letter-spacing: 0.4rem;
+    margin-top:1.2rem;
+    
+}
+
+.timer{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding:1rem;
+    
+    
+}
+.box{
+    background-color:var(--dark-blue);
+    width: 9rem;
+    height: 9rem;
+    margin:10px;
+    padding-top:1rem;
+    border-radius: 5%;
+    border-style: outset black;
+    border-bottom: 8px solid var(--black);
+    color:var(--soft-red);
+    font-size:80px
+}
+.estrellas{
+    position: absolute;
+}
+.montaña{
+    position: absolute;
+    bottom:0;
+}
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    cursor: pointer;
+
+}
+.attribution a { 
+    color: var(--soft-red); 
+    cursor: pointer;
+}
+
+.attribution a:hover{
+    opacity: 0.5;
+}
+
+@media (max-width:700px) {
+    .counter{
+        transform: scale(0.70);
+    }
+    .counter h1{
+        font-size:30px;
+    }
+}
+@media (min-width:1440px){
+    .estrellas img,
+    .montaña img{
+        width:1600px;
+    }
+}
+
+@media (min-width:1600px){
+    .estrellas img,
+    .montaña img{
+        width:1920px;
+    }
+}
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+## Icons
+
+We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */
